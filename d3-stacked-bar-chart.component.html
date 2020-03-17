@@ -1,0 +1,4 @@
+<div *ngIf="!data || !data[0]">No data found for this chart.</div>
+<div class='container' [style.width.px]="this.options.width" [style.height.px]="this.options.height">
+    <svg class='chart'></svg>
+</div>
